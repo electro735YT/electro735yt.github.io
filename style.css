@@ -1,0 +1,246 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f3e8ff;
+}
+
+.sidebar{
+    position:fixed;
+    left:0;
+    top:0;
+    width:5%;
+    height:98%;
+    background-color: #e9d5ff;
+    border-right: 2px solid #b55fe6;
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top:20px;
+}
+
+.logo-box_{
+    margin-bottom:75px;
+    width:50%;
+    height:50%;
+}
+
+.menu-links {
+    display: flex;
+    flex-direction: column;
+    margin-top:75px;
+}
+
+.menu-links a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:75px;
+    height:75px;
+    background-color: white;
+    border-radius: 50%;
+    margin-bottom: 25px;
+}
+
+.sidebar img {
+    width: 28px;
+    height: 28px;
+    object-fit: contain; 
+}
+
+.main-content {
+    position:fixed;
+    margin-left:10%;
+    margin-top:20px;
+    height:75%;
+    width:78%;
+    padding: 100px;
+    background-color: #F6E3FA;
+    border: 2px solid #b55fe6;
+}
+
+.find {
+    background-color: #FBA0E3;
+    border: 4px solid #FBA0E3;
+    height:10%;
+    width:75%;
+    margin-left:30%;
+    margin-top:-5%;
+    padding-bottom:5px;
+    border-radius: 35px;
+}
+
+.find>p{
+    color:gray;
+    font-size:25px;
+    font-style:Arial;
+    font-weight:100px;
+    margin-left:20px;
+}
+
+.ButtonsForTypes{
+    display:flex;
+    justify-content: space-around;
+    padding-top:50px;
+}
+
+.ButtonsForTypes>a{
+    padding: 20px 25px;
+    background-color:#FBA0E3;
+    text-decoration: none;
+    width:25%;
+    border-radius: 20px;
+    font-size:50px;
+    color:#b55fe6;
+    text-align:center; 
+}
+
+.ContentButtons{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+}
+
+.ContentButtons>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 25px; 
+    min-height: 400px;
+    background-color: #ffb9ec;
+    text-decoration: none;
+    width: 25%;
+    border-radius: 20px;
+    font-size: 50px;
+    border: 3.5px solid #d792ff;
+    text-align: center; 
+}
+
+.ContentButtons>div>audio{
+    margin-top: auto;
+}
+
+.ContentButtons>img{
+    border:11px solid #b55fe6;
+}
+
+.Important{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffb9ec;
+    padding: 5px 5px;
+    border-radius: 20px;
+    border: 5px solid #b55fe6;
+}
+
+.Important>p{
+    font-size:25px;
+    padding:5px;
+}
+
+.post{
+    color: rgb(139, 61, 139);
+    text-decoration: none;
+}
+
+.chat{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:flex-start;
+    background-color: #ffb9ec;
+    padding:65px;
+    border-radius: 35px;
+    border:7px palevioletred solid;
+}
+.chat>img{
+    border-radius: 55px;
+}
+
+.chatWindow{
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    background-color: #ffffff;
+    padding:95px;
+    margin-left:390px;
+    margin-top:-330px;
+    height:50px;
+    width:55%;
+    border-radius: 35px;
+}
+
+.Message>p{
+    font-size:25px;
+    margin-left:500px;
+    margin-top:-160px;
+    align-content: center;
+    color:darkslategrey;
+    border:3px palevioletred solid;
+}
+
+
+.find2 {
+    background-color: #FBA0E3;
+    border: 4px solid #FBA0E3;
+    height:10%;
+    width:75%;
+    margin-left:30%;
+    margin-top:-5%;
+    padding-bottom:5px;
+    border-radius: 35px;
+    position:relative;
+    top:-10px;
+}
+
+.find2>p{
+    color:gray;
+    font-size:25px;
+    font-style:Arial;
+    font-weight:100px;
+    margin-left:20px;
+}
+
+.chat>h1{
+    margin-left:-35px;
+    background-color: white;
+    border-radius: 10px;
+    border:#b55fe6 4px solid;
+}
+
+.NEWS{
+    background-color:#FBA0E3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height:85%;
+    border:#b55fe6 4px solid;
+}
+
+.NEWS>h1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left:35%;
+    color:white;
+}
+
+.NewsImportantYO{
+    background-color:#FBA0E3;
+    border:#b55fe6 4px solid;
+    margin-top:100px;
+    height:75px;
+}
+
+.InsideNEWS{
+    background-color:#FBA0E3;
+    border:#b55fe6 4px solid;
+    height:75px;
+}
+
+.NewsImportantYOEmpty{
+    height:75px;
+}
